@@ -1,0 +1,89 @@
+/* Modern CSS Reset - Baseado em Reset e Normalize */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Garante que os elementos HTML5 sejam exibidos de forma consistente */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* Define a linha de base para listas */
+ol, ul {
+  list-style: none;
+}
+
+/* Remove citações automáticas em blockquotes */
+blockquote, q {
+  quotes: none;
+}
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: '';
+  content: none;
+}
+
+/* Remove bordas para tabelas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Garante uma herança consistente de fontes */
+body {
+  line-height: 1.5;
+  font-family: sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+/* Remove underline e cores padrão de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove a aparência padrão de botões */
+button, input, textarea {
+  font-family: inherit;
+  border: none;
+  background: none;
+  color: inherit;
+  padding: 0;
+  outline: none;
+}
+
+/* Remove aparência padrão de campo de formulários */
+textarea {
+  resize: none;
+}
+
+/* Suaviza imagens e mídias */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Adiciona box-sizing para facilitar layout */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
